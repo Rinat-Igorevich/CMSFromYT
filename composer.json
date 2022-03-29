@@ -1,0 +1,21 @@
+{
+    "name": "cms/rinat",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Rinat",
+            "email": "rinat.igorevich@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Cms\\": "cms",
+            "Admin\\": "admin",
+            "Engine\\DI\\": "engine/DI"
+        }
+    }
+}
